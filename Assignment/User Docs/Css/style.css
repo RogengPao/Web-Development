@@ -1,0 +1,695 @@
+*/* Body CSS */
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #446ccc;
+}
+
+body .body-content {
+    padding: 5% 14%;
+    /* background-color: #9fc5f8;
+    color: white; */
+}
+
+p {
+    font-size: 1.3rem;
+}
+/* Navigation CSS */
+#navigation-bar .navigation-container {
+    padding: 0% 3%;
+    border-bottom: solid 1px black;
+}
+
+#navigation-bar .nav-item {
+    padding: 0% 7px;
+}
+
+#navigation-bar .log-in-btn {
+    width: 150px;
+    height: 40px;
+
+}
+
+#navigation-bar .nav-company-logo {
+    height: 55px;
+    width: auto;
+}
+
+/* Header CSS */
+#header {
+    margin-bottom: 10px;
+    color: white;
+}
+
+#header .body-content{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(95, 95, 95, 0.2)), url(https://wallpaperaccess.com/full/4433956.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#header h1 {
+    font-size: 700%;
+    width: fit-content;
+    font-family: 'Cinzel', serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Headers Animation ************************** */
+.fade-in-out {
+    animation: fade-in-out 2s ease-in-out;
+  }
+
+  @keyframes fade-in-out {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+/* *********************************************** */
+
+
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+#header .header-icon {
+    text-align: center;
+    margin-top: 150px;
+    transition: .3s;
+}
+
+#header .header-icon:hover {
+    transform: scale(1.3);
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.header-main {
+    margin-top: 70px;
+}
+
+#mini-features {
+    overflow: hidden;
+}
+#mini-features hr {
+    width: 35%;
+}
+
+#mini-features .col-lg-4 {
+    padding: 2%  1%;
+    margin-bottom: 10px;
+}
+
+#first-container .mini-icons {
+    border-radius: 50%;
+    background-color: #446ccc;
+    padding: 5%;
+}
+#second-container .mini-icons {
+    border-radius: 50%;
+    background-color: #4e73cf;
+    padding: 5%;
+}
+
+#third-container .mini-icons {
+    border-radius: 50%;
+    background-color: white;
+    padding: 5%;
+}
+
+#first-container {
+    background-color: #375bb1;
+    color: white;
+}
+
+#second-container {
+    background-color: #446ccc;
+    color: white;
+}
+
+#third-container {
+    background-color: #f8f8f8;
+    color: #375bb1;
+}
+
+.mini-features-content {
+    margin: 15px 15px;
+}
+
+
+/* About Us CSS */
+#about-us {
+    background-color: white;
+    color: black;
+    line-height: 1.7;
+}
+
+#about-us .body-content {
+    padding: 4% 14%;
+}
+
+#about-us .header-content {
+    padding: 50px 20px 70px 40px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+#about-us .header-image-container {
+    background-color: #375bb1;
+    border-radius: 50%;
+    width: 390px;
+    height: 390px;
+}
+
+#about-us .header-image-container-2 {
+    background-color: #375bb1;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    transform: translateX(290%);
+}
+
+#about-us .header-image {
+    transform: translateY(-30%);
+}
+
+#about-us .header-content {
+    margin: auto 
+}
+
+#about-us .header-btn {
+    margin: 0 30px 0 0;
+    border: solid 1px rgb(226, 211, 211);
+    transition: .3s;
+}
+
+#about-us .btn {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#about-us .book-btn {
+    background-color: #375bb1;
+    transition: .3s;
+}
+
+#about-us .book-btn:hover {
+    background-color: whitesmoke;
+    color: #375bb1;
+    
+}
+/* Features CSS */
+#features {
+    text-align: center;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#features .body-content {
+    padding: 6% 14% 8% 14%;
+}
+
+.feature-tittle {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#features hr {
+    width:25%;  
+    margin: 10px auto 30px auto
+}
+
+
+#features .row {
+    margin-top: 40px;
+}
+
+
+.feature-image {
+    width: 320px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.card-text {
+    height: 100px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card {
+    margin: 10px 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: 0.35s;
+}
+
+.card-up:hover {
+    transform: scale(1.07);
+    transition: 0.35s;
+}
+
+.card-down {
+    transform: translateY(15%);   
+}
+
+.card-down:hover {
+    transform: scale(1.07) translateY(15%);
+    transition: 0.35s;
+}
+
+
+/* Meet our team CSS */
+#meet-our-team {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(https://img.freepik.com/premium-photo/mid-section-team-medical-professionals-health-workers-against-hospital-background_1134-8128.jpg?w=2000) no-repeat center center fixed; 
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.979);
+    margin-bottom: 10px;
+    color: #375bb1;
+}
+
+#meet-our-team .body-content {
+    padding: 1% 14%;
+}
+
+#meet-our-team .col-lg-4 {
+    transform: translateY(-7%);
+}
+
+#meet-our-team hr {
+    width: 15%;  
+    margin: 10px auto 0 auto
+}
+
+#meet-our-team .row {
+    border-radius: 350px;
+}
+
+#meet-our-team .team-image {
+    height: 250px;
+    width: auto;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translateY(35%);
+    border: 5px #375bb1 solid;
+}
+
+#meet-our-team .team-content {
+    color: #446ccc;
+    background-color: white;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 100px 15px 40px 15px;
+    border: 2.5px #375bb1 solid;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 530px;
+    line-height: 1.5;
+}
+
+#meet-our-team .team-icon {
+    margin: 0 15px;
+}
+
+#meet-our-team .team-text {
+    height: 370px;
+}
+
+/* Our Reviews CSS */
+#reviews {
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #375bb1;
+}
+
+#reviews .body-content {
+    padding: 3% 14%;
+}
+
+#reviews hr {
+    width: 25%;
+    margin: 0 auto 20px auto;
+}
+
+#reviews .control-icon {
+    color: #375bb1;
+}
+
+#reviews .carousel-indicators {
+    background-color: #375bb1;
+    width: 15%;
+    margin: 0 auto;
+    border-radius: 15px;
+    transform: translateY(-250%);
+}
+
+#our-review .review-container {
+    
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 60%;
+    margin: 0 auto;
+}
+
+#our-review .review-background {
+    height: 150px;
+    background-color: rgb(214, 193, 235);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0;
+}
+
+#our-review .body-content2 {
+    margin-bottom: 15px;
+}
+
+
+#our-review .testimonial-image {
+ 
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+    border: solid 5px #375bb1;
+}
+
+#our-review .testimonial-content {
+    padding: 0 10% 0 10%;
+    height: 300px;
+}
+
+#our-review blockquote {
+    font-size: 1.5rem;
+    transform: translateY(-50%);
+}
+
+#our-review cite {
+    font-size: 1.20rem;
+    display: inline-block;
+    margin: 30px;
+}
+
+#our-review blockquote::before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    z-index: 2;
+    transform: translate(-50%, 35%);
+}
+
+/*Our Services CSS */
+#our-service {
+    text-align: center;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    color: #375bb1;
+}
+
+#our-service .btn {
+    background-color: #375bb1;
+    color: white;
+    transition: 1s;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    transform: translateX(400%);
+}
+
+#our-service  .btn:hover {
+    background-color: whitesmoke;
+    color: #375bb1;
+}
+
+#our-service .btn2 {
+    background-color: #375bb1;
+    color: white;
+    transition: 1s;
+    border-radius: 50%;
+    border: none;
+    width: 42px;
+    height: 42px;
+    transform: translate(440%, 190%);
+}
+
+#our-service .body-content {
+    padding: 3% 14%;
+}
+
+#our-service hr {
+    width: 20%;
+    margin: 15px auto;
+}
+
+#our-service .thecontainer {
+    position: relative;
+    width: 420px;
+    height: 530px;
+    margin: 15px 0;
+    margin: 10px 15px;
+}
+
+#our-service .thecard1,#our-service .thecard2, #our-service .thecard3 {
+    position: absolute;;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1.25s ease;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5% 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#our-service .thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#our-service .theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    padding: 1% 5%;
+}
+#our-service .row {
+    text-align: center;
+}
+
+#our-service .flip {
+    transform: rotateY(180deg);
+}
+
+#our-service .service-illustration {
+    margin: 15px 5px;
+}
+
+#service-image1, #service-image3  {
+    height: 350px;
+    width: 400px;
+}
+
+#service-image2 {
+    height: 350px;
+    width: auto;
+    transform: translateX(-30%);
+}
+
+
+/* Flip Animation */
+
+/* Flip Animation */
+
+
+/*Our Services CSS */
+#join-our-team {
+    color: #375bb1;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://img.freepik.com/free-vector/3d-effect-teamwork-concept-background_52683-29714.jpg?w=2000) no-repeat center center fixed; 
+    text-align: center;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#join-our-team .hr1 {
+    width: 25%;
+    margin: 15px auto;
+}
+
+#join-our-team .join-team-container {
+    background-color: white;
+    text-align: justify;
+    padding: 5% 10%;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#join-our-team .hr2 {
+    width: 30%;
+}
+
+#join-our-team .btn-join-team {
+    display: block;
+    margin: 20px auto 0 auto;
+    background-color: #375bb1;
+    border: 1px solid whites;
+    transition: 0.5s;
+    
+}
+
+#join-our-team .btn-join-team:hover {
+    display: block;
+    margin: 20px auto 0 auto;
+    background-color: whitesmoke;
+    color: #375bb1;
+    border: 1px solid #375bb1;
+}
+
+/*FAQ CSS */
+#faq {
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    color: #375bb1;
+}
+
+#faq h1 {
+    text-align: center;
+}
+
+#faq hr {
+    width: 10%;
+    margin: 0 auto;
+}
+
+#faq .faq-content {
+    margin: 30px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/*Footer CSS */
+#footer .body-content {
+    background-color: white;
+    color: #1c85c7;
+    padding: 2% 14%;
+}
+
+#footer .follow-us {
+    float: left;
+}
+
+#footer .fa-brands {
+    margin: 4px 20px 4px 0;
+    width: 30px;
+    vertical-align: middle;
+
+}
+
+#footer .footer-container {
+    margin-top: 10px;
+}
+
+#footer .footer-logo {
+    height: 70px;
+    width: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #1c85c7;
+    transition: 0.5s;
+}
+
+#footer a:hover {
+    color: #9fc5f8;
+}
+
+#footer .contact-icon {
+    float: left;
+    height: 60px;
+    margin: 5px 20px 4px 0;
+    width: 30px;
+}
+
+#footer .footer-contact {
+    margin-top: 20px;
+}
+
+#footer .quick-nav {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#footer .list-item {
+    margin-top: 10px;
+}
+
+#footer .footer-copyright {
+    text-align: center;
+    font-size: 1rem;
+}
+
+#book-appointment {
+    background-color: whitesmoke;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#book-appointment .form-container {
+    padding: 3% 7% 3% 7%;
+}
+
+#book-appointment .form-tittle {
+    color:#375bb1;
+}
+
+#book-appointment .form-tittle h1 {
+    color:#375bb1;
+    font-weight: 650;
+}
+
+#book-appointment .body-content {
+    padding: 0 3% 0 0;
+}
+
+#book-appointment .book-form {
+    padding: 7% 5%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#book-appointment .booking-background {
+    background-image: url('https://img.freepik.com/premium-photo/stethoscope-with-calendar-page-date-wood-table-wall-doctor-appointment-medical-concept_293060-2605.jpg?w=1380'), linear-gradient(to bottom, rgba(255,255,255,0.5),rgba(255,255,255,0.5)) ;
+}
+
+#book-appointment .form-control, .form-select {
+    margin-bottom: 20px;
+}
+
+#book-appointment .form-label, .form-check-label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #375bb1;
+}
+
+
+/* Log in******************************************* */
+

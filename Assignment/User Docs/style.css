@@ -1,0 +1,417 @@
+.login{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 610px;
+    visibility: visible;
+    opacity: 1;
+    block-size: 610px;
+    width: 640px;
+    margin-top: 60px;
+    box-shadow: 0 11px 34px 0 rgb(0 0 0 / 20%);
+    border-radius: 34px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.icon{
+    left: 0;
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 47px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon .logo{
+    width: 160px;
+    margin: 0;
+}
+
+.signin{
+    font-family: SF Pro Display,Helvetica Neue,sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000;
+    margin-block-start: 37px;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 20px;
+}
+
+.signin-column{
+    width: 640px;
+    height: 480px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.signin_form{
+    max-height: 44px;
+    min-height: 5.2em;
+}
+
+.signin_container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 328px;
+    position: relative;
+    outline: none
+}
+
+.form_table{
+    display: table;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.username{
+    display: table-row;;
+}
+
+.password{
+    display: table-row;
+    height: 0;;
+}
+
+.form_cell{
+    display: table-cell;
+    vertical-align: top;
+    direction: ltr;
+}
+
+.username_form{
+    padding-right: 43px;
+    border: 1px solid #d6d6d6;
+    color: #494949;
+    margin: 0;
+    box-shadow: none;
+    height: 2.6em;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 1.29412;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 100%;
+}
+
+
+.register{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin: 30px 0 16px;
+    font-size: 14px;
+    line-height: 1.42861;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.button_container{
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.button_style{
+    color: #fff;
+    border-color: #0067b8;
+    background-color: #0067b8;
+    display: inline-block;
+    width: 108px;
+    min-width: 32px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    border-radius: 6px;
+    line-height: 1.29412;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    height: 2em;
+}
+
+.register_container{
+    text-align: center;
+    padding-top: 30px;
+    color: #000;
+    font-size: 17px;
+    line-height: 1.47059;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.account_info{
+    max-width: 1200px;
+    margin: auto;
+    width: 80%;
+    padding-top: 15px;
+    border-bottom: 1px solid #e7e7e8;
+    padding: 30px 0 20px;
+}
+
+.container_center{
+    margin: auto;
+    max-width: 460px;
+}
+
+.fname{
+    padding-right: 15px;
+    width: 50%;
+    float: left;
+    min-height: 2px;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    direction: ltr;
+}
+
+.lname{
+    width: 50%;
+    float: left;
+    min-height: 2px;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    direction: ltr;
+}
+
+.firstname{
+    font-size: 17px;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 100%;
+    height: 3.3em;
+    margin-bottom: 8px;
+    padding-top: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #333;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: hsla(0,0%,100%,.8);
+    background-clip: padding-box;
+}
+
+.register_page{
+    width: auto;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+.text{
+    font-size: 14px;
+    line-height: 1.42861;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #666;
+}
+
+.font_select_style{
+    padding-right: 28px;
+    width: 100%;
+    height: 3.3em;
+    min-height: 32px;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.message{
+    text-align: left;
+    font-size: 14px;
+    padding-left: 2px;
+}
+
+.address_style{
+    margin-bottom: 14px;
+    height: 3.3em;
+    border-radius: 4px;
+    min-height: 32px;
+}
+
+.form_row{
+    display: inline-block;
+}
+
+.button_style_2{
+    color: #fff;
+    border-color: #0067b8;
+    background-color: #0067b8;
+    display: inline-block;
+    width: 200px;
+    min-width: 32px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    border-radius: 6px;
+    line-height: 1.29412;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    height: 3em;
+}
+
+
+.card{
+    font-size: 17px;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 900px;
+}
+
+.list-group-item{
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: .007em;
+    line-height: 1.14286;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-center{
+    padding-top: 30px;
+    max-width: 1200px;
+    margin: auto;
+    width: 95%;
+    border-bottom: 1px solid #e7e7e8;
+
+}
+
+.calendar_container{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.event{
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.event_title{
+    font-size: 34px;
+    font-weight: 900;
+    margin: 36px 0 8px 12px;
+}
+
+.calendar_style{
+    background: #fff;
+    box-shadow: 0 11px 34px 0 rgb(0 0 0 / 20%);
+    border-top: 4px solid #fac863;
+    flex-grow: 1;
+    margin-top: 36px;
+    padding: 14px 16px 0;
+    position: relative;
+    vertical-align: baseline;
+    line-height: 1.3;
+    
+}
+
+body{
+    background: #f5f6f8;
+}
+
+#calendar2{
+    background: #fff;
+    border-style: groove;
+    border-top: 3px solid #060606;
+}
+
+.fc-toolbar-title{
+    padding: 8px 14px;
+}
+
+.fc .fc-toolbar.fc-header-toolbar{
+    margin-bottom: 0;
+}
+
+.header{
+    margin-left: 50px;
+}
+
+.topbar{
+    height: 4.375rem;
+    background-color: #fff;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
+}
+
+.topbar_title{
+    text-align: center;
+    padding-top: 13px;
+}
+
+.content{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.card{
+    width: 100%;
+}
+table tr th:nth-child(8) {
+    max-width: 150px;
+}
+table tr td:nth-child(8) {
+    max-width: 150px;
+}
+
+table{
+    margin-top: 12px;
+    border: 1px solid #e3e6f0;
+    border-right-width: 0;
+    border-spacing: 0;
+}
+
+th{
+    padding: 0.75rem;
+    border: 1px solid #e3e6f0;
+}
+
+td{
+    padding: 0.75rem;
+    vertical-align: top;
+    border: 1px solid #e3e6f0
+}
+
+.pop_out_form_pop {
+    position: absolute;
+}
